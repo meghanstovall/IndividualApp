@@ -60,6 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="64dp"
+        android:onClick="nextButtonPressed"
         android:text="@string/openScreenNextBtn"
         android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -4,4 +4,8 @@
     <string name="name_question">What is your name?</string>
     <string name="name">Name</string>
     <string name="openScreenNextBtn">Next</string>
+    <string name="title_activity_second_screen">SecondScreen</string>
+    <string name="hi_blank">Hi</string>
+    <string name="provide_ass_message">This app will provide assistance with maintaining a healthy diet</string>
+    <string name="second_screen_next">Next</string>
 </resources>
