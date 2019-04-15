@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ThirdScreen"></activity>
+        <activity android:name=".FourthScreen"
+            android:parentActivityName=".ThirdScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ThirdScreen" />
+        </activity>
+        <activity
+            android:name=".ThirdScreen"
+            android:parentActivityName=".SecondScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SecondScreen" />
+        </activity>
         <activity
             android:name=".SecondScreen"
             android:parentActivityName=".MainActivity">

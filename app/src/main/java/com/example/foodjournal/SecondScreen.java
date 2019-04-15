@@ -32,6 +32,7 @@ public class SecondScreen extends AppCompatActivity {
     /** Called when the user taps the Next button */
     public void nextButtonPressed(View view) {
         Intent intent = new Intent(this, ThirdScreen.class);
+        startActivity(intent);
     }
 
 }

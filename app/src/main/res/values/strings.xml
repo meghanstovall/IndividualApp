@@ -8,4 +8,7 @@
     <string name="hi_blank">Hi</string>
     <string name="provide_ass_message">This app will provide assistance with maintaining a healthy diet</string>
     <string name="second_screen_next">Next</string>
+    <string name="grams_protein_q">How many grams of protein do you need a day?</string>
+    <string name="gramsProtAnswer">grams of protein</string>
+    <string name="third_screen_next_bt">Next</string>
 </resources>
