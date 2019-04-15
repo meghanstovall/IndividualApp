@@ -8,7 +8,17 @@
     <string name="hi_blank">Hi</string>
     <string name="provide_ass_message">This app will provide assistance with maintaining a healthy diet</string>
     <string name="second_screen_next">Next</string>
-    <string name="grams_protein_q">How many grams of protein do you need a day?</string>
+    <string name="grams_protein_q">How many grams of protein, carbs, and fats do you need a day?</string>
     <string name="gramsProtAnswer">grams of protein</string>
     <string name="third_screen_next_bt">Next</string>
+    <string name="grams_carbs_answer">grams of carbs</string>
+    <string name="grams_fats_answer">grams of fat</string>
+    <string name="enter_food_in_g">Enter the food along with its grams in protein, carbs, and fats</string>
+    <string name="food_eaten">Food</string>
+    <string name="foods_protein">foods protein</string>
+    <string name="foods_carbs">foods carbs</string>
+    <string name="foods_fats">foods fats</string>
+    <string name="add_another_food">Add another food</string>
+    <string name="done_entering_food">Done</string>
+    <string name="fifth_screen_done_btn">Done</string>
 </resources>
