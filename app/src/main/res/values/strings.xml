@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Food Journal</string>
+    <string name="welcoming_message">Welcome to your very own food journal!</string>
+    <string name="name_question">What is your name?</string>
+    <string name="name">Name</string>
+    <string name="openScreenNextBtn">Next</string>
 </resources>
