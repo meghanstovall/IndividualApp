@@ -79,7 +79,7 @@
 
     <EditText
         android:id="@+id/foodsProtein"
-        android:layout_width="98dp"
+        android:layout_width="116dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
@@ -95,7 +95,7 @@
 
     <EditText
         android:id="@+id/foodsCarbs"
-        android:layout_width="119dp"
+        android:layout_width="107dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"

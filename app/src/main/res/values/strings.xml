@@ -21,4 +21,8 @@
     <string name="add_another_food">Add another food</string>
     <string name="done_entering_food">Done</string>
     <string name="fifth_screen_done_btn">Done</string>
+    <string name="final_numbers_screen">You ate</string>
+    <string name="ate_grams_of_protein">grams of Protein</string>
+    <string name="ate_grams_of_carbs">grams of Carbs</string>
+    <string name="ate_grams_of_fats">grams of Fats</string>
 </resources>

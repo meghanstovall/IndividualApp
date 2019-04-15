@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.List;
+
 import static java.lang.Integer.parseInt;
 
 public class FourthScreen extends AppCompatActivity {
@@ -21,6 +23,10 @@ public class FourthScreen extends AppCompatActivity {
     public void addAnotherFoodButtonPressed(View view) {
         Intent intent = new Intent(this, FourthScreen.class);
         startActivity(intent);
+
+        /** This stores the name of the food **/
+        TextView nameOfFood = (TextView) findViewById(R.id.foodEaten);
+        String foodItemName = nameOfFood.getText().toString();
 
         /** this is storing the amount of protein in the food **/
         TextView foodsProtein = (TextView) findViewById(R.id.foodsProtein);
@@ -36,10 +42,27 @@ public class FourthScreen extends AppCompatActivity {
         TextView foodsFats = (TextView) findViewById(R.id.foodsFats);
         String foodsFatsString = foodsProtein.getText().toString();
         int foodsFatsNum = parseInt(foodsFatsString);
+
+        FoodItem item = new FoodItem(foodItemName, foodsProteinNum, foodsCarbsNum, foodsFatsNum);
+        List<FoodItem> foodItemList = FoodInfoStorage.getFoodItems();
+        foodItemList.add(item);
+
     }
 
     public void doneButtonPressed(View view) {
         Intent intent = new Intent(this, FifthScreen.class);
-        startActivity(intent);
+
+        int totalNumProtein = FoodInfoStorage.getTotalProtein();
+        TextView textView = findViewById(R.id.totalProtienVal);
+        textView.setText(totalNumProtein);
+
+        int totalNumCarbs = FoodInfoStorage.getTotalCarbs();
+        TextView textViewTwo = findViewById(R.id.totalCarbVal);
+        textViewTwo.setText(totalNumCarbs);
+
+        int totalNumFats = FoodInfoStorage.getTotalFats();
+        TextView textViewThree = findViewById(R.id.totalFatVal);
+        textViewThree.setText(totalNumFats);
+
     }
 }
