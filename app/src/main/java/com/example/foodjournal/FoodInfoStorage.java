@@ -7,7 +7,6 @@ public class FoodInfoStorage {
 
     private static List<FoodItem> foodItems = new ArrayList<>();
 
-
     public static List<FoodItem> getFoodItems() {
         return foodItems;
     }

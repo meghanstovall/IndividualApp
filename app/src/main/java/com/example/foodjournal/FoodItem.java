@@ -19,14 +19,17 @@ public class FoodItem {
     }
 
     public int getProtein() {
+
         return protein;
     }
 
     public int getCarbs() {
+
         return carbs;
     }
 
     public int getFats() {
+
         return fats;
     }
 }
